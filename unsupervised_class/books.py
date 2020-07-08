@@ -27,7 +27,7 @@ stopwords = stopwords.union({
     'introduction', 'edition', 'series', 'application',
     'approach', 'card', 'access', 'package', 'plus', 'etext',
     'brief', 'vol', 'fundamental', 'guide', 'essential', 'printed',
-    'third', 'second', 'fourth', })
+    'third', 'second', 'fourth', })S
 def my_tokenizer(s):
     s = s.lower() # downcase
     tokens = nltk.tokenize.word_tokenize(s) # split string into words (tokens)
